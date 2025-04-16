@@ -1,3 +1,13 @@
+body {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
 #body1 {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -18,8 +28,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-image: url("image/corações.jpg")  ;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -28,4 +41,18 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    height: 10vh;
+    width: 20vw;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
 }
